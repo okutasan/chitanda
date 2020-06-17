@@ -26,6 +26,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.chitanda}}
+          github_token: ${{ secrets.CHITANDA_TOKEN}}
           publish_dir: ./public
-          publish_branch: master
+          publish_branch: okutasan
